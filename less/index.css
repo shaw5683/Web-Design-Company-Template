@@ -1216,3 +1216,37 @@
   background: url("../Images/words.png") no-repeat 0 -7.87rem;
   margin: 0 auto;
 }
+body > * {
+  visibility: hidden;
+}
+#beforeLoad {
+  background: url(../images/welcome.jpg);
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  visibility: visible !important;
+}
+#beforeLoad .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#beforeLoad .center .logo {
+  width: 4.96rem;
+  height: 1.14rem;
+  background: url(../images/welcome_words.png) no-repeat;
+  background-size: cover;
+}
+#beforeLoad .center .icon {
+  width: 0.18rem;
+  height: 0.18rem;
+  margin: .4rem auto 0;
+  background: url(../images/loading.gif) no-repeat;
+  background-size: cover;
+}

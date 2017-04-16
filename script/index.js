@@ -1,3 +1,11 @@
+
+// 页面初始化
+window.onload=function(){
+  $('#beforeLoad').hide();
+  $('#beforeLoad').siblings().css('visibility','visible');
+}
+
+
 $(function(){
   // fullpage插件初始化
   var lineWidth = 0.84;
