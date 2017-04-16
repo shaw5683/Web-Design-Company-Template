@@ -1,10 +1,19 @@
 html {
   height: 100%;
   width: 100%;
-  font-size: 625%;
+  font-size: 100px;
+}
+@media screen and (max-width: 1366px) {
+  #main .section .container {
+    top: 14% !important;
+  }
+  #main #client .client-list {
+    height: 3.01rem !important;
+    overflow: hidden !important;
+  }
 }
 body {
-  font: 0.16rem/1.5 "Microsoft Yahei", Arial;
+  font: 0.16rem/1.5 "Microsoft Yahei", Arial !important;
 }
 .full {
   width: 100%;

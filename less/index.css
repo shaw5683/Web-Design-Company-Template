@@ -405,6 +405,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 #main .section #home .swiper-container .swiper-wrapper .swiper-slide .page1 .center-wrapper .center .left {
   background: url("../Images/words.png") no-repeat -3.77rem -0.2rem;
